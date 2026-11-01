@@ -139,7 +139,7 @@ def write_reports(report, directory):
     (directory / 'report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     columns = ['source_url', 'observed_at', 'language', 'market', 'field', 'canonical', 'observed', 'status']
     with (directory / 'report.csv').open('w', encoding='utf-8', newline='') as stream:
-        writer = csv.DictWriter(stream, fieldnames=columns)
+        writer = csv.DictWriter(stream, fieldnames=columns, lineterminator='\n', quoting=csv.QUOTE_ALL)
         writer.writeheader()
         writer.writerows({key: csv_safe(row[key]) for key in columns} for row in report['results'])
     esc = html.escape

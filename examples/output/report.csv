@@ -1,17 +1,17 @@
-source_url,observed_at,language,market,field,canonical,observed,status
-https://example.com/fictional/elodie/en,2026-10-20,en,International,name,Élodie Tan,Élodie Tan,match
-https://example.com/fictional/elodie/en,2026-10-20,en,International,role,Research Director,Research Director,match
-https://example.com/fictional/elodie/en,2026-10-20,en,International,organization,Aster Meridian Lab,Aster Meridian Lab,match
-https://example.com/fictional/elodie/en,2026-10-20,en,International,description,Fictional research leader used solely for this demonstration.,Fictional research leader used solely for this demonstration.,manual_review
-https://example.com/fictional/elodie/fr,2026-10-21,fr,France,name,Élodie Tan,Élodie Tan,match
-https://example.com/fictional/elodie/fr,2026-10-21,fr,France,role,Research Director,Directrice de recherche,approved_alias
-https://example.com/fictional/elodie/fr,2026-10-21,fr,France,organization,Aster Meridian Lab,Aster Meridian Laboratory,approved_alias
-https://example.com/fictional/elodie/fr,2026-10-21,fr,France,description,Fictional research leader used solely for this demonstration.,Dirigeante fictive de recherche pour cette démonstration.,manual_review
-https://example.com/fictional/elodie/directory,2026-10-22,en,Singapore,name,Élodie Tan,Elodie Tan,mismatch
-https://example.com/fictional/elodie/directory,2026-10-22,en,Singapore,role,Research Director,Chief Scientist,mismatch
-https://example.com/fictional/elodie/directory,2026-10-22,en,Singapore,organization,Aster Meridian Lab,Aster Meridian Lab,match
-https://example.com/fictional/elodie/directory,2026-10-22,en,Singapore,description,Fictional research leader used solely for this demonstration.,Fictional directory entry requiring review.,manual_review
-https://example.com/fictional/elodie/event,2026-10-23,en,Canada,name,Élodie Tan,Élodie Tan,match
-https://example.com/fictional/elodie/event,2026-10-23,en,Canada,role,Research Director,,missing
-https://example.com/fictional/elodie/event,2026-10-23,en,Canada,organization,Aster Meridian Lab,,missing
-https://example.com/fictional/elodie/event,2026-10-23,en,Canada,description,Fictional research leader used solely for this demonstration.,,missing
+"source_url","observed_at","language","market","field","canonical","observed","status"
+"https://example.com/fictional/elodie/en","2026-10-20","en","International","name","Élodie Tan","Élodie Tan","match"
+"https://example.com/fictional/elodie/en","2026-10-20","en","International","role","Research Director","Research Director","match"
+"https://example.com/fictional/elodie/en","2026-10-20","en","International","organization","Aster Meridian Lab","Aster Meridian Lab","match"
+"https://example.com/fictional/elodie/en","2026-10-20","en","International","description","Fictional research leader used solely for this demonstration.","Fictional research leader used solely for this demonstration.","manual_review"
+"https://example.com/fictional/elodie/fr","2026-10-21","fr","France","name","Élodie Tan","Élodie Tan","match"
+"https://example.com/fictional/elodie/fr","2026-10-21","fr","France","role","Research Director","Directrice de recherche","approved_alias"
+"https://example.com/fictional/elodie/fr","2026-10-21","fr","France","organization","Aster Meridian Lab","Aster Meridian Laboratory","approved_alias"
+"https://example.com/fictional/elodie/fr","2026-10-21","fr","France","description","Fictional research leader used solely for this demonstration.","Dirigeante fictive de recherche pour cette démonstration.","manual_review"
+"https://example.com/fictional/elodie/directory","2026-10-22","en","Singapore","name","Élodie Tan","Elodie Tan","mismatch"
+"https://example.com/fictional/elodie/directory","2026-10-22","en","Singapore","role","Research Director","Chief Scientist","mismatch"
+"https://example.com/fictional/elodie/directory","2026-10-22","en","Singapore","organization","Aster Meridian Lab","Aster Meridian Lab","match"
+"https://example.com/fictional/elodie/directory","2026-10-22","en","Singapore","description","Fictional research leader used solely for this demonstration.","Fictional directory entry requiring review.","manual_review"
+"https://example.com/fictional/elodie/event","2026-10-23","en","Canada","name","Élodie Tan","Élodie Tan","match"
+"https://example.com/fictional/elodie/event","2026-10-23","en","Canada","role","Research Director","","missing"
+"https://example.com/fictional/elodie/event","2026-10-23","en","Canada","organization","Aster Meridian Lab","","missing"
+"https://example.com/fictional/elodie/event","2026-10-23","en","Canada","description","Fictional research leader used solely for this demonstration.","","missing"

@@ -132,6 +132,22 @@ class AuditTests(unittest.TestCase):
                 self.assertEqual(exported['canonical'], "'" + payload)
                 self.assertEqual(self.report()['results'][0]['observed'], payload)
 
+    def test_csv_export_uses_lf_line_endings(self):
+        self.assertEqual(self.run_audit().returncode, 0)
+        content = (self.directory / 'reports/report.csv').read_bytes()
+        self.assertIn(b'\n', content)
+        self.assertNotIn(b'\r', content)
+        self.assertTrue(content.endswith(b'\n'))
+
+    def test_csv_export_preserves_embedded_carriage_return(self):
+        payload = 'Fictional first line\rSecond line'
+        result = self.run_audit(rows=[['https://example.com', '2026-10-01', '', '', 'Élodie Tan', 'Director', '', payload]])
+        self.assertEqual(result.returncode, 0, result.stderr)
+        with (self.directory / 'reports/report.csv').open(newline='') as stream:
+            descriptions = [row for row in csv.DictReader(stream) if row['field'] == 'description']
+        self.assertEqual(len(descriptions), 1)
+        self.assertEqual(descriptions[0]['observed'], payload)
+
     def test_invalid_dates(self):
         for value in ['2026-02-30', '01/10/2026', '', '2026-10-01T12:00:00']:
             with self.subTest(value=value):
