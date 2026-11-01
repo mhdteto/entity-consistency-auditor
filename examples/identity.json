@@ -1,0 +1,12 @@
+{
+  "entity_id": "fictional-person-001",
+  "entity_type": "person",
+  "name": "Élodie Tan",
+  "role": "Research Director",
+  "organization": "Aster Meridian Lab",
+  "description": "Fictional research leader used solely for this demonstration.",
+  "aliases": {
+    "role": ["Directrice de recherche"],
+    "organization": ["Aster Meridian Laboratory"]
+  }
+}

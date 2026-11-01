@@ -1,0 +1,7 @@
+{
+  "entity_id": "fictional-organization-001",
+  "entity_type": "organization",
+  "name": "Solstice Atlas Institute",
+  "description": "Fictional international research organization for demonstration only.",
+  "aliases": {"name": ["Institut Solstice Atlas"]}
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-01",
+  "notice": "Consistency with the supplied record only. No truth verification, entity resolution, or Google ranking prediction.",
+  "identity": {
+    "entity_id": "fictional-person-001",
+    "entity_type": "person",
+    "name": "Élodie Tan",
+    "role": "Research Director",
+    "organization": "Aster Meridian Lab",
+    "description": "Fictional research leader used solely for this demonstration.",
+    "aliases": {
+      "role": [
+        "Directrice de recherche"
+      ],
+      "organization": [
+        "Aster Meridian Laboratory"
+      ]
+    }
+  },
+  "profile_count": 4,
+  "status_counts": {
+    "approved_alias": 2,
+    "manual_review": 3,
+    "match": 6,
+    "mismatch": 2,
+    "missing": 3
+  },
+  "results": [
+    {
+      "source_url": "https://example.com/fictional/elodie/en",
+      "observed_at": "2026-10-20",
+      "language": "en",
+      "market": "International",
+      "field": "name",
+      "canonical": "Élodie Tan",
+      "observed": "Élodie Tan",
+      "status": "match"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/en",
+      "observed_at": "2026-10-20",
+      "language": "en",
+      "market": "International",
+      "field": "role",
+      "canonical": "Research Director",
+      "observed": "Research Director",
+      "status": "match"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/en",
+      "observed_at": "2026-10-20",
+      "language": "en",
+      "market": "International",
+      "field": "organization",
+      "canonical": "Aster Meridian Lab",
+      "observed": "Aster Meridian Lab",
+      "status": "match"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/en",
+      "observed_at": "2026-10-20",
+      "language": "en",
+      "market": "International",
+      "field": "description",
+      "canonical": "Fictional research leader used solely for this demonstration.",
+      "observed": "Fictional research leader used solely for this demonstration.",
+      "status": "manual_review"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/fr",
+      "observed_at": "2026-10-21",
+      "language": "fr",
+      "market": "France",
+      "field": "name",
+      "canonical": "Élodie Tan",
+      "observed": "Élodie Tan",
+      "status": "match"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/fr",
+      "observed_at": "2026-10-21",
+      "language": "fr",
+      "market": "France",
+      "field": "role",
+      "canonical": "Research Director",
+      "observed": "Directrice de recherche",
+      "status": "approved_alias"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/fr",
+      "observed_at": "2026-10-21",
+      "language": "fr",
+      "market": "France",
+      "field": "organization",
+      "canonical": "Aster Meridian Lab",
+      "observed": "Aster Meridian Laboratory",
+      "status": "approved_alias"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/fr",
+      "observed_at": "2026-10-21",
+      "language": "fr",
+      "market": "France",
+      "field": "description",
+      "canonical": "Fictional research leader used solely for this demonstration.",
+      "observed": "Dirigeante fictive de recherche pour cette démonstration.",
+      "status": "manual_review"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/directory",
+      "observed_at": "2026-10-22",
+      "language": "en",
+      "market": "Singapore",
+      "field": "name",
+      "canonical": "Élodie Tan",
+      "observed": "Elodie Tan",
+      "status": "mismatch"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/directory",
+      "observed_at": "2026-10-22",
+      "language": "en",
+      "market": "Singapore",
+      "field": "role",
+      "canonical": "Research Director",
+      "observed": "Chief Scientist",
+      "status": "mismatch"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/directory",
+      "observed_at": "2026-10-22",
+      "language": "en",
+      "market": "Singapore",
+      "field": "organization",
+      "canonical": "Aster Meridian Lab",
+      "observed": "Aster Meridian Lab",
+      "status": "match"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/directory",
+      "observed_at": "2026-10-22",
+      "language": "en",
+      "market": "Singapore",
+      "field": "description",
+      "canonical": "Fictional research leader used solely for this demonstration.",
+      "observed": "Fictional directory entry requiring review.",
+      "status": "manual_review"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/event",
+      "observed_at": "2026-10-23",
+      "language": "en",
+      "market": "Canada",
+      "field": "name",
+      "canonical": "Élodie Tan",
+      "observed": "Élodie Tan",
+      "status": "match"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/event",
+      "observed_at": "2026-10-23",
+      "language": "en",
+      "market": "Canada",
+      "field": "role",
+      "canonical": "Research Director",
+      "observed": "",
+      "status": "missing"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/event",
+      "observed_at": "2026-10-23",
+      "language": "en",
+      "market": "Canada",
+      "field": "organization",
+      "canonical": "Aster Meridian Lab",
+      "observed": "",
+      "status": "missing"
+    },
+    {
+      "source_url": "https://example.com/fictional/elodie/event",
+      "observed_at": "2026-10-23",
+      "language": "en",
+      "market": "Canada",
+      "field": "description",
+      "canonical": "Fictional research leader used solely for this demonstration.",
+      "observed": "",
+      "status": "missing"
+    }
+  ]
+}

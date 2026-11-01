@@ -1,0 +1,5 @@
+source_url,observed_at,language,market,name,role,organization,description
+https://example.com/fictional/elodie/en,2026-10-20,en,International,Élodie Tan,Research Director,Aster Meridian Lab,Fictional research leader used solely for this demonstration.
+https://example.com/fictional/elodie/fr,2026-10-21,fr,France,Élodie Tan,Directrice de recherche,Aster Meridian Laboratory,Dirigeante fictive de recherche pour cette démonstration.
+https://example.com/fictional/elodie/directory,2026-10-22,en,Singapore,Elodie Tan,Chief Scientist,Aster Meridian Lab,Fictional directory entry requiring review.
+https://example.com/fictional/elodie/event,2026-10-23,en,Canada,Élodie Tan,,,
