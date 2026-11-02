@@ -17,3 +17,4 @@ jobs:
       - run: python3 audit.py --identity examples/identity.json --profiles examples/profiles.csv --output-dir reports --as-of 2026-11-01
       - run: diff -r examples/output reports
       - run: python3 audit.py --identity examples/organization-identity.json --profiles examples/organization-profiles.csv --output-dir reports/organization --as-of 2026-11-01
+      - run: python3 tools/verify_connected_example.py

@@ -2,6 +2,10 @@
 
 # Entity Consistency Auditor
 
+[![Validation](https://github.com/mhdteto/entity-consistency-auditor/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/mhdteto/entity-consistency-auditor/actions/workflows/tests.yml)
+![Python CI](https://img.shields.io/badge/Python%20CI-3.10%20%7C%203.13-36d9ee?labelColor=081321)
+
+
 An offline Python CLI for comparing supplied profile observations with an approved identity record. Use it to prepare a review of inconsistent names, roles and organization labels across languages and markets.
 
 **This checks consistency with your supplied record. It does not verify truth, resolve identities, crawl websites, measure AI visibility or predict Google rankings.** All examples are fictional.
@@ -12,6 +16,21 @@ An offline Python CLI for comparing supplied profile observations with an approv
   <a href="https://mohammedteto.com/method/"><img src=".github/readme-assets/method.svg" width="148" height="36" alt="The method" /></a>
   <a href="https://mohammedteto.com/research/"><img src=".github/readme-assets/research.svg" width="148" height="36" alt="Research" /></a>
 </p>
+
+<!-- suite-navigation -->
+## Start here: this repository in the workflow
+
+**Your task:** Compare profiles with an approved identity reference.
+
+[Method →](https://github.com/mhdteto/authority-architecture-system) · [Audit →](https://github.com/mhdteto/search-ai-discoverability-checker) · [Structure →](https://github.com/mhdteto/entity-structured-data-kit) · [Measure →](https://github.com/mhdteto/ai-citation-tracker)
+
+**Next step:** [authority-evidence-mapper](https://github.com/mhdteto/authority-evidence-mapper) — Review the evidence behind material claims.
+
+**Try it:** [complete fictional workflow](https://github.com/mhdteto/authority-architecture-system/tree/main/examples/fictional-workflow) · [this tool’s inputs, command and expected output](examples/connected-workflow/README.md). All scenario records and engine answers are invented; generated reports are real CLI output.
+
+**Python CI:** 3.10 / 3.13. The badge links to the real workflow; it describes automated checks, not ranking, factual accuracy or AI visibility.
+[Map of all eight resources](https://github.com/mhdteto/authority-architecture-system/blob/main/docs/tool-map.md) · [Open an issue](https://github.com/mhdteto/entity-consistency-auditor/issues/new/choose)
+<!-- /suite-navigation -->
 
 ## Quick start
 
